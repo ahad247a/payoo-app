@@ -24,13 +24,15 @@ function showOnly (id) {
     const newHistory = document.getElementById("history")
     const transaction =document.getElementById("transfer-money")
     const bonus =document.getElementById("get-bonus")
+    const payBil =document.getElementById("pay-bill")
 
     addMoney.classList.add('hidden')
     cashout.classList.add('hidden')
     newHistory.classList.add('hidden')
     transaction.classList.add('hidden')
     bonus.classList.add('hidden')
-
+    payBil.classList.add('hidden')
+    
 
     const selected = document.getElementById(id)
 
